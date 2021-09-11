@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "name": "Cliente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "contacto": {
+      "type": "string"
+    }
+  }
+}

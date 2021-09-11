@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingredientes",
+  "info": {
+    "name": "ingrediente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}

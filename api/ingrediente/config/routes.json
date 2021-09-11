@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ingredientes",
+      "handler": "ingrediente.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ingredientes/count",
+      "handler": "ingrediente.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ingredientes/:id",
+      "handler": "ingrediente.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ingredientes",
+      "handler": "ingrediente.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ingredientes/:id",
+      "handler": "ingrediente.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ingredientes/:id",
+      "handler": "ingrediente.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

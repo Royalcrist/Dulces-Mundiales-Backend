@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tamanos",
+  "info": {
+    "name": "tamano"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ancho": {
+      "type": "decimal"
+    },
+    "alto": {
+      "type": "decimal"
+    },
+    "profundidad": {
+      "type": "decimal"
+    }
+  }
+}
